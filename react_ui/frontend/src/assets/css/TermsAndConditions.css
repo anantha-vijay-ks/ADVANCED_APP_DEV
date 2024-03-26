@@ -1,0 +1,36 @@
+.terms-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .terms-box {
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .terms-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .terms-list {
+    padding-left: 20px;
+  }
+  
+  .terms-list ol {
+    list-style-type: decimal;
+  }
+  
+  .terms-list li {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
