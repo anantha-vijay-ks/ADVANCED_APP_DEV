@@ -37,7 +37,7 @@ public class AuthServiceImpl implements AuthService {
     public String register(RegisterRequest registerRequest) {
         Optional<User> userExist = userRepository.findByEmail(registerRequest.getEmail());
         if (userExist.isPresent()) {
-            return  registerRequest.getEmail() + " exists already";
+            return registerRequest.getEmail() + " exists already";
         }
         var user = User.builder()
                 .name(registerRequest.getName())
